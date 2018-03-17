@@ -38,11 +38,11 @@
 
 
         <!-- log4j2 -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.20</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.slf4j</groupId>-->
+            <!--<artifactId>slf4j-api</artifactId>-->
+            <!--<version>1.7.20</version>-->
+        <!--</dependency>-->
         <!-- 兼容log4j 1.x 主要为了兼顾spring -->
         <!--<dependency>-->
             <!--<groupId>org.apache.logging.log4j</groupId>-->
