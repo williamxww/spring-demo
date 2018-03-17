@@ -1,10 +1,11 @@
-package com.bow.biz.dao;
+package com.bow.spring.transaction;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
 
+import com.bow.biz.dao.UserDao;
 import com.bow.biz.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
