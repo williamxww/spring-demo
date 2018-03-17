@@ -1,9 +1,3 @@
-/**  
- * @FileName: TransactionServiceTest.java 
- * @Package com.bow.service.common 
- * all rights reserved by Hill team
- * @version v1.3  
- */ 
 package com.bow.spring.transaction;
 
 import com.bow.biz.dao.DemoDao;
