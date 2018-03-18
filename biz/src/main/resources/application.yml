@@ -1,0 +1,15 @@
+# Tomcat
+server:
+    tomcat:
+        uri-encoding: UTF-8
+        max-threads: 1000
+        min-spare-threads: 30
+    port: 8080
+
+# spring
+spring:
+    # 环境 dev|test|pro
+    profiles:
+        active: dev
+    resources: # 指定静态资源的路径
+        static-locations: classpath:/static/
