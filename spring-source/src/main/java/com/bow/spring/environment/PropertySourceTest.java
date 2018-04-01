@@ -55,8 +55,17 @@ public class PropertySourceTest {
         System.out.println(propertyResolver.resolvePlaceholders("value must be ${name1}"));// 占位符
     }
 
-    public void testEnvironment() {
+    /**
+     * {@link Environment} 用来获取各种配置项的值，包括当前是是dev-profile还是prod-profile.
+     * 其extends {@link org.springframework.core.env.PropertyResolver},
+     * Environment还可以获取placeholder对应的值
+     */
+    private static void testEnvironment() {
         Environment env = new StandardEnvironment();
         System.out.println(env.getProperty("file.encoding"));
+    }
+
+    public static void main(String[] args) {
+        testEnvironment();
     }
 }
