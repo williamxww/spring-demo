@@ -59,8 +59,11 @@ public class PropertySourceTest {
      * {@link Environment} 用来获取各种配置项的值，包括当前是是dev-profile还是prod-profile.
      * 其extends {@link org.springframework.core.env.PropertyResolver},
      * Environment还可以获取placeholder对应的值
+     *
+     * System.getProperties()的相关配置也放在了Environment中
      */
     private static void testEnvironment() {
+
         Environment env = new StandardEnvironment();
         System.out.println(env.getProperty("file.encoding"));
     }
